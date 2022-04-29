@@ -29,6 +29,4 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: WhiteSource@21
-  inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: 'WhiteSourceProject'
+
